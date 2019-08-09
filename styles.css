@@ -7,6 +7,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+div.post-container:nth-child(even) {
+ background-color: #9c0c0c;
+}
+
+
 #header{
   background-color: #1abc9c;
   height: 150px;
@@ -41,7 +46,7 @@ body {
 #header-nav li {
   display: inline;
   padding-left: 20px;
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 .container {
@@ -124,8 +129,4 @@ p {
 
 .about {
   text-align: center;
-}
-
-.post-container:nth-child(even) {
- background-color: #f2f2f2;
 }
